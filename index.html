@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="style.css">
 <title>Meu portfólio</title>
 </head>
@@ -12,34 +13,136 @@
 <body>
 <header class="container text-center">
 <img src="img/IMG_4677.jpeg" alt="avatar da Mayara" class="rounded-circle" width="150" height="150" srcset="">
-<p class="lead">Eu sou Mayara </p>
-<h1>Eu estudo programações</h1>
-<p>Sou estudante. Faço projetos de em linguagem de programação. Veja os projetos
-que já fiz!</p>
+<p class="lead">Eu sou Mayara_</p>
+<h1>Eu sou Corinthians</h1>
+<p>Sou apaixonada por livros e Taylor Swift. Compartilho minhas leituras favoritas e tudo sobre minha cantora preferida. Veja os projetos que já desenvolvi!</p>
 <p>Minhas habilidades</p>
 <div>
-<p class="badge bg-secondary">HTML</p>
-<p class="badge bg-secondary">CSS</p>
-<p class="badge bg-secondary">JavaScript</p>
-<p class="badge bg-secondary">Scratch</p>
+<p class="badge bg-secondary">Leitura</p>
+<p class="badge bg-secondary">Análise Literária</p>
+<p class="badge bg-secondary">Curadoria de Músicas</p>
+<p class="badge bg-secondary">Fan Art</p>
 </div>
 </header>
-<main class="container">
+<main class="container mt-5">
 <h2>Meus projetos</h2>
 <div class="row">
+<!-- Projeto 1 -->
 <div class="col-md-4">
-<div class="card" style="width: 18rem;">
-<img src="..." class="card-img-top" alt="...">
+<div class="card">
+<img src="img/projeto.jpeg" class="card-img-top" alt="Imagem do projeto de livro favorito">
 <div class="card-body">
-<h5 class="card-title">Card title</h5>
-<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-<a href="#" class="btn btn-primary">Go somewhere</a>
+<h5 class="card-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+<p class="card-text">Este projeto é uma página web que apresenta uma lista dos meus livros favoritos,
+incluindo informações sobre os autores, datas de publicação e resenhas pessoais.
+A página é estilizada para uma experiência visual agradável e fácil de navegar.</p>
+<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+</div>
+</div>
+</div>
+<!-- Projeto 2 -->
+<div class="col-md-4">
+<div class="card">
+<img src="img/projetom2.jpeg" class="card-img-top" alt="Imagem do projeto sobre Taylor Swift">
+<div class="card-body">
+<h5 class="card-title">Taylor Swift: Uma Jornada Musical Interativa</h5>
+<p class="card-text">Este projeto é uma aplicação interativa que explora a carreira e músicas da Taylor Swift,
+permitindo que os visitantes conheçam sua trajetória, discografia e curiosidades através de uma navegação envolvente.</p>
+<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+</div>
+</div>
+</div>
+
+<!-- Projeto 3 -->
+<div class="col-md-4">
+<div class="card">
+<img src="img/projetom3.jpeg" class="card-img-top" alt="Imagem do projeto fan art">
+<div class="card-body">
+<h5 class="card-title">Fan Art Corinthians: Expressando Minha Paixão</h5>
+<p class="card-text">Este projeto apresenta uma coleção de fan arts inspiradas no Corinthians,
+mostrando minha habilidade artística e meu amor pelo time, com pinturas digitais e ilustrações.</p>
+<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+<!-- Modal 1 -->
+<div class="modal" id="modal1" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<p>Este projeto é uma página web criada para compartilhar minha coleção pessoal de livros favoritos.
+Inclui descrições breves de cada livro, autor, ano de publicação e opiniões pessoais.</p>
+<p>O layout foi pensado para ser simples e agradável, focando na usabilidade e na facilidade de navegação.</p>
+<p>É um espaço virtual para dividir com outros leitores as histórias e autores que mais gosto, incentivando a leitura.</p>
+<img src="img/projeto.jpeg" class="img-fluid w-100" alt="Imagem do projeto da biblioteca online">
+</div>
+<div class="modal-footer">
+<a href="#" target="_blank">Ver projeto ao vivo</a>
+<a href="#" target="_blank">Ver código do projeto</a>
 </div>
 </div>
 </div>
 </div>
 
-</main>
+<!-- Modal 2 -->
+<div class="modal" id="modal2" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Taylor Swift: Uma Jornada Musical Interativa</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<p>Este projeto interativo explora a carreira da Taylor Swift, suas músicas, álbuns e evolução artística.</p>
+<p>Permite ao usuário navegar pela discografia, assistir vídeos, e conhecer curiosidades sobre a cantora.</p>
+<p>É um tributo à minha artista favorita, desenvolvido com HTML, CSS e JavaScript para uma experiência imersiva.</p>
+<img src="img/projetom2.jpeg" class="img-fluid w-100" alt="Imagem do projeto sobre Taylor Swift">
+</div>
+<div class="modal-footer">
+<a href="#" target="_blank">Ver projeto ao vivo</a>
+<a href="#" target="_blank">Ver código do projeto</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal" id="modal3" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Fan Art Corinthians: Expressando Minha Paixão</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<p>Este projeto reúne minhas ilustrações e fan arts dedicadas ao Corinthians, utilizando diversas técnicas digitais.</p>
+<p>É uma forma de expressar meu amor pelo time e desenvolver minhas habilidades artísticas.</p>
+<p>As artes são exibidas em uma galeria interativa que permite navegar e ampliar as imagens.</p>
+<img src="img/projetom3.jpeg" alt="Projeto fan art Corinthians" class="img-fluid w-100">
+</div>
+<div class="modal-footer">
+<a href="#" target="_blank">Ver projeto ao vivo</a>
+</div>
+</div>
+</div>
+</div>
+
+<footer class="container py-5">
+<h2>Entre em contato</h2>
+<div>
+<i class="bi bi-github"></i>
+<a href="#">https://github.com/mayaraa2007/</a>
+</div>
+<p class="my-5 text-center">© Copyright 2024. Produzido por Mayara</p>
+</footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
